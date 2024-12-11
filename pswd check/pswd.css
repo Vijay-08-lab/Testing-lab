@@ -1,0 +1,76 @@
+
+body{
+    position: relative;
+    background-image: url(./Source/pexels-eberhardgross-443446.jpg);
+    background-size: cover;
+    
+
+
+}
+img{
+    height: 65px;
+    position: fixed;
+    top: 97px;
+    left: 620px;
+    border-radius: 50%;
+}
+.clipcard{
+    background-color: black;
+ position:absolute;
+ top: 150px;
+ left: 35%;
+ margin: 10px;
+ padding: 20px;
+ opacity: 0.6;
+ height: 300px;
+ width: 300px;
+ border-radius: 10px;
+ border: none;
+}
+#uname{
+    height: 20px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+#pswd{
+    height: 20px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+a{
+    margin: 60px;
+    padding: 20px;
+}
+h4{
+    color: whitesmoke;
+}
+#idcard{
+    position: absolute;
+    top: 50px;
+    left: 229px;
+     height: 30px;
+     width: 30px;
+     margin-left: 10px;
+}
+button{
+    margin-top: 5px;
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: greenyellow;
+    color: black;
+}
